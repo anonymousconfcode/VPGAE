@@ -1,0 +1,1 @@
+python vertical_partition_real_system.py --method "VPGAE"

@@ -1,0 +1,1 @@
+python vertical_partition.py --dataset "synthetic"
