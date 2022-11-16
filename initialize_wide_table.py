@@ -19,7 +19,7 @@ if __name__ == "__main__":
     conn.autocommit = True
     cursor = conn.cursor()
     
-    cursor.execute("select tablename from pg_tables where schemaname='public'")
+    # cursor.execute("select tablename from pg_tables where schemaname='public'")
 
     # create wide table
     create_table_sql = '''
