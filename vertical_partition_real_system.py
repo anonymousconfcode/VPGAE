@@ -59,7 +59,7 @@ wide_table_attrs = [["a1","CHAR(150) NOT NULL"],
 def do_partitioning_on_pg(partitions,workload):
     subtables = ["wide_table"+str(i) for i in range(len(partitions))]
 
-    conn = psycopg2.connect(database="wide_test", user="postgres", password="lhy19990316", host="127.0.0.1", port="5432")
+    conn = psycopg2.connect(database="wide_test", user="your-user-name", password="your-password", host="127.0.0.1", port="5432")
     conn.autocommit = True
     cursor = conn.cursor()
 
